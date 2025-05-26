@@ -28,6 +28,10 @@ uv run main.py
 ```
 This will run the MCP client, which interacts with the [`mcp-yahoo-finance`](https://pypi.org/project/mcp-yahoo-finance/) MCP server (Yahoo Finance interaction) to get the current price of Tesla stock.
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/evanxd/mcp-client/blob/main/LICENSE) file for details.
