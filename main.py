@@ -43,6 +43,6 @@ async def main():
         result = await llm_with_tools.ainvoke(messages)
 
     messages.append({"role": "assistant", "content": result.content})
-    print(messages[-1])
+    print(messages[-1]["content"])
 
 asyncio.run(main())
